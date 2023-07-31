@@ -1,0 +1,109 @@
+button {
+  cursor: pointer;
+}
+
+#hero {
+  padding: 0 150px;
+  display: flex;
+  color: white;
+  background-color: #495E57;
+}
+
+.hero-info {
+  margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero-info > h2 {
+  margin-bottom: 0;
+  color: #F4CE14;
+  font-size: xx-large;
+}
+
+.hero-info > h3 {
+  margin: 0;
+}
+
+.hero-info > button {
+  padding: 1em;
+  font-size: larger;
+  border-radius: 1em;
+  border-style: none;
+  color: white;
+  background-color: #F4CE14;
+}
+
+#hero img {
+  position: relative;
+  top: 4em;
+  border-radius: 5%;
+}
+
+main {
+  margin-top: 6em;
+  padding: 0 150px;
+  font-size: larger;
+}
+
+.special_top {
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.special_top button {
+  padding: 1em;
+  font-size: large;
+  border-radius: 1em;
+  border-style: none;
+  color: white;
+  background-color: #F4CE14;
+}
+
+.card_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card_container .card_title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card_container {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: grid;
+  margin-bottom: 2em;
+  width: 350px;
+}
+
+.dishImg {
+  border-radius: 7% 7% 0 0;
+}
+
+.card .card_info {
+  padding: 0 2em 1em 2em;
+  background-color: #EDEFEE;
+}
+
+.dish_price {
+  color: #EE9972;
+}
+
+@media screen and (max-width: 970px) {
+  .card_container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+}

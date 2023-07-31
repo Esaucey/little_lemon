@@ -1,11 +1,11 @@
 import React from 'react'
+import './Footer.css'
 import Logo from '../assets/Logo .png'
 
 const Footer = () => {
   return (
     <div className='footer_container'>
-      <img src={Logo} alt="" />
-      <section className='footer_lists'>
+      <img src={Logo} alt="" height="40px" />
         <div className='footer_doormat_nav'>
           <h4>Doormat Navigation</h4>
           <p>Home</p>
@@ -28,7 +28,6 @@ const Footer = () => {
           <p>Link 3</p>
           <p>Link 4</p>
         </div>
-      </section>
 
     </div>
   )
